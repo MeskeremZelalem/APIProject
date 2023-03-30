@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.App {
+  width: 500px;
+  margin: 0 auto;
+  height: 80vh;
+  margin-top: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:15px 20px;
+  background: black;
+ 
+}
+.container{
+  width:500px;
+  height: 75vh;
+  border-radius: 7px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top:-20px;
+}
+.dice--container{
+ display: grid;
+ grid-template: auto auto / repeat(5,1fr);
+ margin-bottom: 50px;
+}
+.btn {
+ position: absolute;
+ bottom:10px;
+ height: 50px;
+ width:150px;
+ background:#5035FF;
+ color:#fff;
+ font-size:1.3rem;
+ border:none;
+ border-radius: 7px;
+ cursor: pointer;
+  font-family: 'Karla','sanserif';
+  font-weight: bold;
+}
+.btn:focus{
+  outline: none;
+}
+.active {
+  background: green;
+}
